@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="register"/>
+
+    <Button
+        android:id="@+id/buttonViewAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Account" />
+
+    <Button
+        android:id="@+id/buttonDeleteAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:onClick="delete"
+        android:layout_marginBottom="60dp" />
+</LinearLayout>

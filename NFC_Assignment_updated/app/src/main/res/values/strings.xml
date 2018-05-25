@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NFC_Assignment</string>
+    <string name="title_activity_delete">Delete</string>
+</resources>
